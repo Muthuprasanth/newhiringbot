@@ -861,7 +861,7 @@ function textanalyics(question) {
   var options3 = {
     method: 'post',
     headers: {
-      'Ocp-Apim-Subscription-Key':'41299d85e3cf45d0acc70606ddac94e0',
+      'Ocp-Apim-Subscription-Key':'30279aa6ec1e407c99291454b6becdd9',
       // 'Content-Type':'application/json',
       // 'Accept':'application/json',
     },
