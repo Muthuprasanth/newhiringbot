@@ -159,8 +159,8 @@ function convertToLang(token,text,lang)
 
 console.log("------Bot is going to respond you-----");
 var inMemoryStorage = new builder.MemoryBotStorage();
-
-server.post('/api/messages', connector.listen());
+//server.post
+router.get('/api/messages', connector.listen());
 var bot = new builder.UniversalBot(connector, [
   async  function (session) {
       let candidateresponsekeyphrases,qnakeyphrases,qnaresponse;
