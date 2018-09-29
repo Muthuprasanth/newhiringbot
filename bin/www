@@ -335,7 +335,8 @@ var requestWithToken = function (url) {
           }
       });*/
   //  console.log("Connector token is ",token);
-    let uri = "https://speechtotext-service-1.azurewebsites.net/speechtotext?url="+url+"&token="+token ;
+  //"https://speechtotext-service-1.azurewebsites.net/speechtotext?url="+url+"&token="+token ;
+    let uri = "https://new-speechtotextapp.azurewebsites.net/speechtotext?url="+url+"&token="+token ;
     var options3 = {
       headers: {
         'Accept':'application/json'
