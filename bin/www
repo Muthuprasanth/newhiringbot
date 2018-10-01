@@ -48,8 +48,8 @@ answerlinestream.on('data', function(chunk) {
 });
 answerinput.pipe(answerlinestream);
 console.log("Answer file",answers);
-var MICROSOFT_APP_ID="9eab7df5-491a-4ce1-a25d-dddd1aefa46c";
-var MICROSOFT_APP_PASSWORD="giahVFRC5$$-hopHXJ7252{";
+var MICROSOFT_APP_ID="ec47385e-f2db-4df7-9d3b-c5f9f767bd43";
+var MICROSOFT_APP_PASSWORD="uggeVYQ4563](^sqgMWNL2|";
 
 var server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 4990, function () {
@@ -66,7 +66,7 @@ var config =
   {
     userName: 'Muthuprasanth038', // update me
     password: 'Sirius@25', // update me
-    server: 'sendgridcredentials.database.windows.net', // update me
+    server: 'sendgridcredentials1.database.windows.net', // update me
     options:
     {
       database: 'Sendusercred1', //update me
@@ -109,7 +109,7 @@ function issueToken()
     headers: {
       //'Authorization':'EndpointKey 316818ad-d8b1-4918-82b8-f0d7b02b91af',
       'Content-Type':'application/json',
-      'Ocp-Apim-Subscription-Key': '580bf606b4de4c60811cebfdf2b4b1a1',
+      'Ocp-Apim-Subscription-Key': 'a08075ce5f6441d0bc4f8434291e7d22',
     },
 
     url: ' https://api.cognitive.microsoft.com/sts/v1.0/issueToken',
@@ -336,7 +336,7 @@ var requestWithToken = function (url) {
       });*/
   //  console.log("Connector token is ",token);
   //"https://speechtotext-service-1.azurewebsites.net/speechtotext?url="+url+"&token="+token ;
-    let uri = "https://new-speechtotextapp.azurewebsites.net/speechtotext?url="+url+"&token="+token ;
+    let uri = "https://new-speechtotextapp1.azurewebsites.net/speechtotext?url="+url+"&token="+token ;
     var options3 = {
       headers: {
         'Accept':'application/json'
